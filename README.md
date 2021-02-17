@@ -2,7 +2,7 @@
 	Diabetic Retinopathy Classification Using DNN 
 </h1>
 
-### *Poster*: [Diabetic Retinopathy Classification Using DNN](https://github.com/saitejamalyala/diabetic_retinopathy/Poster_Diabetic_Retionopathy_.pdf)
+### *Poster*: [Diabetic Retinopathy Classification Using DNN](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/Poster_Diabetic_Retionopathy_.pdf)
 ### **For Running the script follow the [instructions here](https://github.com/saitejamalyala/diabetic_retinopathy/README.md#instructions-to-run-the-script) or run the code directly using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Tnioi5B035QGOyrtyuihTkdxr1zWXGsA#scrollTo=mzZlrU-lswsG)**
 *Change the hyper parameters in ```constants.py```*
 
