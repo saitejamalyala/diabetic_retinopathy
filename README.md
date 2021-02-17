@@ -8,32 +8,32 @@
 
  *This project was exported from pycharm, environment based on python 3.8 was used. Make sure Source directory is* ```diabetic_retinopathy``` 
 
-1. [Input Pipeline]()
+1. Input Pipeline
     * [IDRID Dataset](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid#files)(Training set Images- 413, Test set Images-103)
     * Image Resize (to 256*256)
     * Image crop (Box crop)
     * Image Normalization 
     * Class balancing
-2. [Model Architecture](https://github.com/saitejamalyala/diabetic_retinopathy/models/architecture.py)
-3. [Training Routine](https://github.com/saitejamalyala/diabetic_retinopathy/main.py#L108)
+2. [Model Architecture](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/models/architecture.py)
+3. [Training Routine](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/main.py#L108)
 4. Model CallBacks:
-    * [Check point Callback](https://github.com/saitejamalyala/diabetic_retinopathy/main.py#L92) - For saving model at desired interval(epoch frequency)
-    * [Tensorboard Callback](https://github.com/saitejamalyala/diabetic_retinopathy/main.py#L78) - For logging training stats,Profiling
-    * [CSV Logger Callback](https://github.com/saitejamalyala/diabetic_retinopathy/main.py#L103) - To save training logs in a csv file
-5. [Training from a check point](https://github.com/saitejamalyala/diabetic_retinopathy/main.py#L112)
+    * [Check point Callback](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/main.py#L92) - For saving model at desired interval(epoch frequency)
+    * [Tensorboard Callback](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/main.py#L78) - For logging training stats,Profiling
+    * [CSV Logger Callback](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/main.py#L103) - To save training logs in a csv file
+5. [Training from a check point](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/main.py#L112)
     * Initial epoch here is the point at which the training was interrupted
-6. [Evaluation](https://github.com/saitejamalyala/diabetic_retinopathy/evaluation/eval.py#L35)
+6. [Evaluation](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/evaluation/eval.py#L35)
     * [Confusion Matrix]()
     * [Classification Report]()
-7. [Data Augmentation](https://github.com/saitejamalyala/diabetic_retinopathy/input_pipeline/datasets2.py#L46)
+7. [Data Augmentation](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/input_pipeline/datasets2.py#L46)
     * Vertical Flip
     * Horizontal Flip
     * Box Crop
     * Rotate
-8. [Deep Visualization](https://github.com/saitejamalyala/diabetic_retinopathy/visualization/deep_vis.py)
+8. [Deep Visualization](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/visualization/deep_vis.py)
     * GradCAM
-9. [Hyper Parameter Tuning](https://github.com/saitejamalyala/diabetic_retinopathy/hyper_parameter_tuning/hparam_tuning.py)
-    * [Grid Search](https://github.com/saitejamalyala/diabetic_retinopathy/hyper_parameter_tuning/hparam_tuning.py#L22) (Epochs, Number of dense neurons, stride, Learning rate)
+9. [Hyper Parameter Tuning](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/hyper_parameter_tuning/hparam_tuning.py)
+    * [Grid Search](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/hyper_parameter_tuning/hparam_tuning.py#L22) (Epochs, Number of dense neurons, stride, Learning rate)
 ## Outputs from several stages of project
 * **After Image processing and data augmentation:**
 <p align="center">
@@ -154,7 +154,7 @@
 	
 ## Instructions to run the script:
 
-Before running the script Install the [requirments](https://github.com/saitejamalyala/diabetic_retinopathy/requirements.txt) from ```requirements.txt``` using ```pip install -r requirements.txt```
+Before running the script Install the [requirments](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/requirements.txt) from ```requirements.txt``` using ```pip install -r requirements.txt```
 
 * **Make the following changes in main.py based on the Mode(training mode, hyper parameter tuning mode, finetuning mode, evaluation mode) you want to run the script in.**
 
@@ -175,7 +175,7 @@ Before running the script Install the [requirments](https://github.com/saitejama
 		```flags.DEFINE_boolean('Transfer_learning', True, 'to use transfer learning based model, train flag must be set to true to fine tune pretrained model')```	
 
 	4. For Evaluating the pretrained model 
-		* Change the path of the pretrained model [here](https://github.com/saitejamalyala/diabetic_retinopathy/main.py#L152) in ```main.py``` to desired path.
+		* Change the path of the pretrained model [here](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/main.py#L152) in ```main.py``` to desired path.
 
 		```flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')```
 
