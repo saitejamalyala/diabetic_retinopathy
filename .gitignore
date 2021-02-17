@@ -151,7 +151,7 @@ IDRID_dataset/
 #diabetic_retinopathy/Notused/
 log_dir/
 diabetic_retinopathy/weights/*
-diabetic_retinopathy/hp_log_dir
+diabetic_retinopathy/hp_log_dir/*
 
 experiments/
 Notused/*
