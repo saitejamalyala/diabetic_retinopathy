@@ -152,7 +152,6 @@ IDRID_dataset/*
 log_dir/*
 weights/*
 hp_log_dir/*
-hyper_parameter_tuning/*
 experiments/
 Notused/*
 Notused/notebooks/*
