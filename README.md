@@ -3,7 +3,7 @@
 </h1>
 
 ### *Poster*: [Diabetic Retinopathy Classification Using DNN](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/Poster_Diabetic_Retionopathy_.pdf)
-### **For Running the script follow the [instructions here](https://github.com/saitejamalyala/diabetic_retinopathy/README.md#instructions-to-run-the-script) or run the code directly using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Tnioi5B035QGOyrtyuihTkdxr1zWXGsA#scrollTo=mzZlrU-lswsG)**
+### **For Running the script follow the [instructions here](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/README.md#instructions-to-run-the-script) or run the code directly using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Tnioi5B035QGOyrtyuihTkdxr1zWXGsA#scrollTo=mzZlrU-lswsG)**
 *Change the hyper parameters in ```constants.py```*
 
  *This project was exported from pycharm, environment based on python 3.8 was used. Make sure Source directory is* ```diabetic_retinopathy``` 
