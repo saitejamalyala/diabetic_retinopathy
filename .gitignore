@@ -145,18 +145,25 @@ cython_debug/
 
 #manually added
 #datasets
-IDRID_dataset/
+IDRID_dataset/*
 
 # Custom
 #diabetic_retinopathy/Notused/
-log_dir/
-diabetic_retinopathy/weights/*
-diabetic_retinopathy/hp_log_dir/*
-
+log_dir/*
+weights/*
+hp_log_dir/*
+hyper_parameter_tuning/*
 experiments/
 Notused/*
 Notused/notebooks/*
 results/*
+weights/*
+
+
+!hyper_parameter_tuning/.gitkeep
+!hp_log_dir/.gitkeep
+!hp_log_dir/results
+!log_dir/.gitkeep
 !results/.gitkeep
 !weights/20201222-220802_ADAM_epochs_100_test_acc_78.h5
 !weights/fullmodel_tl_82_acc.h5

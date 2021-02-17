@@ -1,0 +1,18 @@
+
+
+# Input pipeline
+load.name = 'idrid'
+load.data_dir = './IDRID_dataset'
+
+#Below paths are valid only if all
+#these directories are in "load.data_dir"
+
+path2dir.images_train = '/images/train'
+path2dir.images_test = '/images/test'
+path2dir.csv_train_labels = '/labels/train.csv'
+path2dir.csv_test_labels = '/labels/test.csv'
+
+_build_dataset.img_height = 256
+_build_dataset.img_width = 256
+
+prepare_for_performance.caching = False
