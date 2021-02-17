@@ -37,14 +37,14 @@
 ## Outputs from several stages of project
 * **After Image processing and data augmentation:**
 <p align="center">
-  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/9x9_aug.png" width="650" height="650"/>
+  <img src="media/9x9_aug.png" width="650" height="650"/>
 </p>
 <p align="center">
     <em>Processed and Augmented Images</em>
 </p>
 
 * **Model Architecture**
-	1. [Model](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/fullmodel_tl_82_acc.png) based on ResNET50v2 (Transfer 				learning). 
+	1. [Model]("/media/fullmodel_tl_82_acc.png") based on ResNET50v2 (Transfer 				learning). 
 	2. Model based on  Blocks of Conv+BatchNorm+Maxpool (Only 453K parameters)
 	<p align="center">
 	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/model_architecture.PNG" height="200"/>
