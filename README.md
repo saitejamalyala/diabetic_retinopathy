@@ -175,7 +175,7 @@ Before running the script Install the [requirments](https://github.com/saitejama
 		```flags.DEFINE_boolean('Transfer_learning', True, 'to use transfer learning based model, train flag must be set to true to fine tune pretrained model')```	
 
 	4. For Evaluating the pretrained model 
-		* Change the path of the pretrained model [here](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/main.py#L152) in ```main.py``` to desired path.
+		* Change the path of the pretrained model [here](https://github.com/saitejamalyala/diabetic_retinopathy/blob/main/main.py#L160) in ```main.py``` to desired path.
 
 		```flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')```
 
